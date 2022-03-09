@@ -1,0 +1,36 @@
+{
+    "name": "Save Restricted",
+    "description": "Save restricted content",
+    "logo": "",
+    "keywords": [
+        "Best",
+        "telegram",
+        "save restricted",
+        "bot"
+    ],
+    "repository": "",
+    "website": "",
+    "success_url": "https://t.me/groupdcbots",
+    "env": {
+        "API_HASH": {
+            "description": "Your API HASH from my.telegram.org",
+            "value": ""
+        },
+        "API_ID": {
+            "description": "Your API ID from my.telegram.org",
+            "value": ""
+        },
+        "BOT_TOKEN": {
+            "description": "Bot token, get it from @BotFather.",
+            "value": ""
+        }
+    },
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        },
+        {
+            "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+        }
+    ]
+}
