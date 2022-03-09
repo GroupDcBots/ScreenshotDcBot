@@ -1,20 +1,25 @@
-# WARNING ⚠️ HEROKU BAN 
+# ScreenshotDcBot ❤️
+
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=groupdcbots&repo=ScreenshotDcBot&theme=tokyonight)](https://github.com/groupdcbots/ScreenshotDcBot&bg_color=#24292F)
+# Features 🐛
+
+> generator screenshot without downloading...
+# WARNING ⚠️ HEROKU BAN 😪
 > Telegram Bot For Screenshot Generation.
 
-## Description
+## Description🦋
 
-An attempt to implement the screenshot generation of telegram files without downloading the entire file. Live version can be found here [@ScreenShot Bot](https://tx.me/ScreenShotTGBot).
+An attempt to implement the screenshot generation of telegram files without downloading the entire file. Live version can be found here [@ScreenshotDcBot](https://tx.me/ScreenshotDcBot).
 > Screenshot Generation with Custom Watermark---Sample Video Generation---Trim video.
 
-## Installation Guide
+## Installation Guide🎎
 
 ### You can also tap the Deploy To Heroku button below to deploy straight to Heroku!
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://www.heroku.com/deploy?template=https://github.com/Clinton-Abraham/SCREENSHOT-X-BOT)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://www.heroku.com/deploy?template=https://github.com/selfie-bd/ScreenshotDcBot)
 
-### Watch our YouTube video for more details - [Telegram Screenshot | Trim | Sample Video Generator Bot](https://youtu.be/Fsc-ZUvdO20)
 
-### Prerequisites
+### Prerequisites✝️
 * FFmpeg.
 * Python3 (3.6 or higher).
 
@@ -37,7 +42,7 @@ $ source venv/bin/activate
 $ pip3 install -U -r requirements.txt
 ```
 
-### Environment Variables
+### Environment Variables 🐚
 
 Properly setup the environment variables or populate `config.py` with the values (some of the values are sensitive data, so keep them safe).
 
@@ -54,14 +59,14 @@ Properly setup the environment variables or populate `config.py` with the values
 * `TRACK_CHANNEL`(optional) - User activity tracking channel's id. Only needed if you want to track and block any user. Disabled by default.
 * `SLOW_SPEED_DELAY`(optional) - Delay required between each request. Defaults to 15s.
 
-### Run bot
+### Run bot 👻
 `$ python3 -m bot`
 
 Now go to your bot and do a `/start`.
 
-## Supported commands and functions
+## Supported commands and functions⚒️
 
-### Commands
+### Commands🔨
 
 * `/start` - Command to start bot or check whether bot is alive.
 * `/settings` - Command to configure bot's behavior'
@@ -73,13 +78,13 @@ Now go to your bot and do a `/start`.
 * `/banned_users` - Admin/Auth users only command. Command to view all banned users. Usage: `/banned_users`. This takes no parameters.
 * `/broadcast` - Admin/Auth user only command. Command to broadcast some message to all users. Usage: reply `/broadcast` to the message you want to broadcast.
 
-### Functions
+### Functions🌡️
 * `Screenshot Generation` - Generates screenshots from telegram video files or streaming links. Number of screenshots range from 2-10.
 * `Manual Screenshot` - Generates screenshots of specific time. Number of screenshots range from 1-10.
 * `Sample Video Generation` - Generates sample video from telegram video files or streaming links. Video duration range from 30s to 150s. Configurable in `/settings`.
 * `Video Trimming` - Trims any telegram video files or streaming links. Video duration depends on the environment. By default upto 10 mins (600s).
 
-### Settings
+### Settings⚙️
 In bot settings.
 * `Upload Mode` - Screenshot upload mode. Either `as image file` or `as document file`. Defaults to `as image file`.
 * `Watermark` - Watermark text to be embedded to screenshots. Texts upto 30 characters supported. Disabled by default.
@@ -89,13 +94,13 @@ In bot settings.
 * `Screenshot Genetation Mode` - Either `random` or `equally spaced`. Defaults to `equally spaced`.
 
 
-## Contributions
+## Contributions ✅
 Contributions are welcome.
 
-## Contact
-You can contact me [Clinton Abraham](https://t.me/clinton_abraham).
+## Contact🅾️
+You can contact me [selfie-bd](https://t.me/selfiebd).
 
-## Thanks
+## Thanks😊❤️✨
 
 Thanks to [@odysseusmax](https://tx.me/odysseusmax) for his [animated-lamp](https://github.com/odysseusmax/animated-lamp) Bot.
 
@@ -103,5 +108,5 @@ Thanks to [Dan](https://github.com/delivrance "Dan") for his [Pyrogram](https://
 
 Thanks to [Tulir Asokan](https://github.com/tulir "Tulir Asokan") for his [TgFileStream](https://github.com/tulir/tgfilestream "TgFileStream") Bot.
 
-## License
+## License☺️🙏
 Code released under [The GNU General Public License](LICENSE).
